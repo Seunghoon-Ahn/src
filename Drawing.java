@@ -20,7 +20,7 @@ public class Drawing extends JFrame{
 	Drawing() {
 		setTitle("사각형 그리기");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		/*Container c = getContentPane();
+		Container c = getContentPane();
 		c.setLayout(new FlowLayout());
 		Start_X = new JLabel("Start_X");
 		X = new JTextField(10);
@@ -39,7 +39,6 @@ public class Drawing extends JFrame{
 		c.add(Width);
 		c.add(W);
 		
-		*/
 		setSize(500, 500);
 		setVisible(true);		
 	}
